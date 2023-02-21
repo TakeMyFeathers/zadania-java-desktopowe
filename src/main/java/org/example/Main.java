@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.chapter2.ContentPanel;
+import org.example.chapter2.*;
 
 import javax.swing.*;
 
@@ -10,8 +10,7 @@ public class Main {
         var window = new JFrame("Aplikacja");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        window.setContentPane(new ContentPanel());
-
+        window.setContentPane(new DrawingPanel());
         window.setSize(400, 200);
         window.setLocation(100, 50);
         window.setVisible(true);
